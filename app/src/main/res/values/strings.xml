@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">SelfieTips</string>
+
+    <string name="heading1">Stand in the Light</string>
+    <string name="tips1">
+        In photography light is one of the main facts.
+        When you are taking a selfie, or any photo for that
+        matter, you have to have good lighting!
+    </string>
+
+    <string name="heading2">Experiment with Angles</string>
+    <string name="tips2">
+        Find your best side and your best angle. Do not be
+        scared to try something different. Experiment a lot,
+        and it is one of the secrets of good selfie.
+    </string>
+
+    <string name="heading3">Be Cheerful</string>
+    <string name="tips3">
+        Selfie is not a matter of something very serious. So take is easy and
+        be casual as much as you like. Take a picture of you engaging in a fun
+        activity.
+    </string>
+
+    <string name="heading4">Take a Full-Body Shot</string>
+    <string name="tips4">
+        A full-length mirror works well for this type of selfie shot.
+        Again, angle your body to the left or right, which is generally
+        more flattering than shooting straight on.
+    </string>
+
+    <string name="heading5">Adjust Your Shoulder Placement</string>
+    <string name="tips5">
+        If your shoulders are parallel to the camera, turn them slightly
+        to the left and then slightly to the right, and see what looks best.
+        This is one of the important facts.
+    </string>
+
+    <string name="heading6">Background Check</string>
+    <string name="tips6">
+        The best selfies have more than just a face. There are something
+        interesting to look at in the background. But it should be clear and
+        relevant to your expression.
+    </string>
+
+    <string name="heading7">Be Still</string>
+    <string name="tips7">
+        An obvious but challenging tip to execute is to be still when you take
+        your photos. Take a deep breath, try to relax and hold your pose. And see
+        what happens!
+    </string>
+
+</resources>
