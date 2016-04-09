@@ -1,10 +1,13 @@
 package com.aalpha_lab.selfietips;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,6 +22,12 @@ public class MainActivity extends AppCompatActivity {
         button_GetTips = (Button) findViewById(R.id.button_get_tips);
         button_TakeSelfie = (Button) findViewById(R.id.button_take_selfie);
 
+        // Third Party Animation Library example
+        YoYo.with(Techniques.StandUp)
+                .duration(2000)
+                .playOn(findViewById(R.id.button_take_selfie));
+
+        // GetTips Button behaviour
         button_GetTips.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -27,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // TakeSelfie Button behaviour
         button_TakeSelfie.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
